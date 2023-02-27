@@ -16,14 +16,14 @@ public class exercicio2 {
         int[] entrada = new int[10];
         
         //array num conjunto de 3 números
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 10; i++) {
             System.out.print("Digite o " + (i+1) + "º número: ");
             entrada[i] = sc.nextInt();
         }
         array(entrada);
 
-        System.out.println("Números ordenados:");
-        for(int i = 0; i < 3; i++){
+        System.out.println("Menor número:");
+        for(int i = 0; i < 10; i++){
             System.out.print(entrada[i] + " ");
 
         }
