@@ -1,5 +1,5 @@
-import java.util.Scanner;
 package revisao2;
+import java.util.Scanner;
 
 public class exercicio2 {
     public static int[] array(int[] vetor){
